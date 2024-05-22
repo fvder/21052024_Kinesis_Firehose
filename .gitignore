@@ -1,0 +1,34 @@
+# Local Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually local-only
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Crash log files
+crash.log
+
+# Exclude .DS_Store files (common on macOS)
+.DS_Store
+
+# Ignore any .log files
+*.log
+
+# Ignore backup files
+*.backup
+
+# Ignore IDE specific files (e.g., VS Code)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore sensitive files
+secrets.auto.tfvars
