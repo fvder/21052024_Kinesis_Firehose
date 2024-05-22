@@ -1,0 +1,22 @@
+{
+    "deploy": true,
+    "stream_name": "",
+    "s3_bucket_arn": "",
+    "s3_prefix": "",
+    "buffer_size": 5,
+    "buffer_interval": 300,
+    "role_arn": "",
+    "kms_key_arn": "",
+    "compression_format": "GZIP",
+    "sse_kms_key_type": "AWS_OWNED_CMK",
+    "error_output_prefix": "",
+    "dynamic_partitioning": false,
+    "dynamic_partitioning_retry_duration": 300,
+    "enable_processing_configuration": false,
+    "lambda_arn": "",
+    "enable_cloudwatch_logging": false,
+    "cloudwatch_log_retention": 7,
+    "cloudwatch_log_stream_name": "S3Delivery",
+    "tags": {}
+  }
+  
